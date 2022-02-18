@@ -1,0 +1,11 @@
+(library
+ (name hlist)
+ (public_name hlist)
+ (modules hlist)
+ (libraries stdlib-shims))
+
+(test
+ (name test_hlist)
+ (package hlist)
+ (modules test_hlist)
+ (libraries hlist oUnit))
