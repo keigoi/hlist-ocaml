@@ -19,4 +19,6 @@
  (name hlist)
  (synopsis "Heterogeneously-typed lists for OCaml")
  (description "Heterogeneously-typed lists for OCaml.")
- (depends stdlib-shims))
+ (depends
+  stdlib-shims
+  (ounit :with-test)))
