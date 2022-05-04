@@ -9,11 +9,12 @@ homepage: "https://github.com/keigoi/hlist-ocaml"
 doc: "https://github.com/keigoi/hlist-ocaml"
 bug-reports: "https://github.com/keigoi/hlist-ocaml/issues"
 depends: [
-  "dune" {>= "1.12"}
+  "dune" {>= "3.1"}
   "stdlib-shims"
+  "odoc" {with-doc}
 ]
 build: [
-  ["dune" "subst"] {pinned}
+  ["dune" "subst"] {dev}
   [
     "dune"
     "build"
