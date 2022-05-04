@@ -1,8 +1,7 @@
 (library
  (name hlist)
  (public_name hlist)
- (modules hlist)
- (libraries stdlib-shims))
+ (modules hlist))
 
 (test
  (name test_hlist)
